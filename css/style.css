@@ -1,0 +1,162 @@
+/* all common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* all common css End */
+/* header part start  */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-link {
+	color: #ffff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .4s;
+}
+.nav-link:hover {
+	color: #4756DF;
+}
+.contact_btn{
+    padding: 15px 42px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+    background-color: #6A4DF4;
+    border-radius: 10px;
+}
+/* header part End  */
+/* banner part start  */
+#banner_part{
+    background: url(../images/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_overly{
+    padding-top: 330px;
+    padding-bottom: 165px;
+    background: rgba(0, 0, 0, 0.62);
+}
+.banner_text h1{
+    font-family: "Inter", sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 120%;
+}
+.banner_text p {
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	padding: 0 139px;
+}
+.banner_text a{
+    padding: 15px 42px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+    background-color: #6A4DF4;
+    border-radius: 10px;
+}
+/* banner part End  */
+/* counter part start */
+#counter_part{
+    padding-top: 170px;
+    padding-bottom: 80px;
+}
+.extra_bg{
+    padding: 95px 50px;
+    background: #E0FFF9;
+}
+.counter_left_text p{
+    padding-bottom: 30px;
+    color: #6A4DF4;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+.counter_left_text h1{
+    color: 151515;
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 38px;
+}
+.counter_item h3{
+    color: 151515;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.counter_item p{
+    color: #737373;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 29px;
+}
+/* counter part End  */
+/* service part one start  */
+.service h1{
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 28px;
+}
+.service p {
+	font-family: "Inter", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 26px;
+	padding: 0px 13px;
+}
+/* service part one end  */
+/* service part two start  */
+#service_part{
+        padding-top: 80px;
+        padding-bottom: 155px;
+} 
+.service_item{
+    padding: 55px;
+} 
+.service_text h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #151515;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}      
+.service_text p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+}   
+.service_item:hover{
+    border-radius: 20px;
+    -webkit-box-shadow: -2px 1px 6px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 1px 6px 6px rgba(0,0,0,0.75);
+    box-shadow: -2px 1px 6px 6px rgba(0,0,0,0.75);
+}
+/* service part two End  */
